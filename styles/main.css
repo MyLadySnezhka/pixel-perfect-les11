@@ -1,16 +1,16 @@
 .general-col {
     margin: 300px auto;
-    width: 1204px;
-    height: 436px;
+    width: 1202px;
+    height: 434px;
     border: 3px solid #000;
 }
 
 .top-col {
     display: flex;
-    justify-content: right;
-    width: 1174px;
-    height: 66px;
-    padding: 0 15px;
+    justify-content: end;
+    /*width: 1174px;*/
+    height: 65px;
+    /*padding: 0 12px;*/
     border-bottom: 2px solid gray;
 }
 
@@ -20,19 +20,21 @@
     height: 36px;
     background-color: #f6f6f6;
     padding: 0 20px;
-    margin: 10px;
+    margin: 13px 12px;
+    border-radius: 4px;
 }
 
 .button1 {
-    width: 124px;
+    width: 100px;
 }
 
 .button2 {
-    width: 111px;      
+    width: 127px;      
 }
 
 .bottom-col {
     display:flex;
+    /*flex-wrap: wrap;*/
 }
 
 .logo {
@@ -44,8 +46,15 @@
 .middle-col {
     width: 659px;
     height: 299px;
-    padding: 30px 0 40px 30px;
+    padding: 14px 30px 40px 30px;
+}
+
+.middle-text {
     color: grey;
+    /*font-size: 80%;*/
+    width: 600px;
+    height: 171px;
+    margin: 26;
 }
 
 a {
@@ -56,7 +65,7 @@ a {
 .history-col {
     width: 255px;
     height: 289px;
-    padding: 40px 30px;
+    padding: 43px 52px;
 }
 
 body {
